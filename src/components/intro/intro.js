@@ -11,7 +11,7 @@ export class Intro extends Component {
           <h3>Full Stack Developer</h3>
         </div>
         <div>
-          <a href="https://www.linkedin.com/in/alexa-kearns/" className="link">Linked In</a>
+          <a href="https://www.linkedin.com/in/alexa-kearns/" className="link">LinkedIn</a>
           <a href="https://github.com/alexakearns" className="link">Github</a>
         </div>
       </div>
