@@ -16,5 +16,8 @@ module.exports = {
     "sourceType": "module",
   },
   "plugins": ["react"],
-  "rules": {},
+  "rules": {
+    "quotes": ["error"],
+    "semi": ["error", "always"],
+  },
 };
