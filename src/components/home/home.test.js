@@ -1,14 +1,14 @@
 import React from 'react';
-import Intro from './intro.js';
+import Home from './home.js.js';
 import { shallow } from 'enzyme';
 
 it('loads without crashing', () => {
-  shallow(<Intro />);
+  shallow(<Home />);
 });
 
 describe('Renders', () => {
   it('renders Alexa Kearns', () => {
-    const wrapper = shallow(<Intro />);
+    const wrapper = shallow(<Home />);
     expect(wrapper).toIncludeText('Alexa Kearns');
   });
 });

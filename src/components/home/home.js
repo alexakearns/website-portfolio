@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
-import './intro.css';
+import './home.css';
 
-export class Intro extends Component {
+export class Home extends Component {
   render () {
     return (
       <div>
@@ -19,4 +19,4 @@ export class Intro extends Component {
   }
 }
 
-export default Intro;
+export default Home;
