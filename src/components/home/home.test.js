@@ -1,5 +1,5 @@
 import React from 'react';
-import Home from './home.js.js';
+import Home from './home.js';
 import { shallow } from 'enzyme';
 
 it('loads without crashing', () => {
