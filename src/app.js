@@ -7,12 +7,15 @@ import './app.css';
 export class App extends Component {
   render () {
     return (
-      <Router>
-        <Switch>
-          <Route path="/" exact component={ Home } />
-        </Switch>
-      </Router>
-
+      <div>
+        <div className="banner">
+        </div>
+        <Router>
+          <Switch>
+            <Route path="/" exact component={ Home } />
+          </Switch>
+        </Router>
+      </div>
     );
   }
 }
