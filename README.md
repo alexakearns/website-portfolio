@@ -4,3 +4,12 @@
 # Personal Portfolio Site
 
 www.alexakearns.com
+
+## MVP
+
+- [x] Links to LinkedIn and Github
+- [ ] CV
+- [ ] Brief 'about me' section
+- [ ] All tested
+- [x] CI and Deployment
+- [ ] Simple responsive design
