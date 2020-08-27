@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import './home.css';
+import { Links } from '../links/links';
 
 export class Home extends Component {
   render () {
@@ -11,8 +12,7 @@ export class Home extends Component {
           <h3>Full Stack Developer</h3>
         </div>
         <div>
-          <a href="https://www.linkedin.com/in/alexa-kearns/" className="link">LinkedIn</a>
-          <a href="https://github.com/alexakearns" className="link">Github</a>
+          <Links />
         </div>
       </div>
     );
