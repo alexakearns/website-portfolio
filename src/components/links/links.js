@@ -9,10 +9,10 @@ export class Links extends Component {
     return (
       <div>
         <a href="https://www.linkedin.com/in/alexa-kearns/" className="link">
-          <img src={Linkedin} alt="linkedin" />
+          <img src={Linkedin} alt="linkedin" className="link_logo"/>
         </a>
         <a href="https://github.com/alexakearns" className="link">
-          <img src={Github} alt="github" />
+          <img src={Github} alt="github" className="link_logo"/>
         </a>
       </div>
     );
