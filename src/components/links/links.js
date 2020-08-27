@@ -18,3 +18,5 @@ export class Links extends Component {
     );
   }
 }
+
+export default Links;
