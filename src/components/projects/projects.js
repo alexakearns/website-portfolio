@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 
+import './projects.css';
+
 export class Projects extends Component {
   render () {
     return (
-      <div>
+      <div className="title-text">
         <h1>Projects</h1>
       </div>
     );
