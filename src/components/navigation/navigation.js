@@ -14,11 +14,11 @@ export class Navigation extends Component {
         <Router>
           <div className="banner">
             <Navbar bg="dark">
-              <Navbar.Brand >Alexa Kearns</Navbar.Brand>
+              <Navbar.Brand id="initials">AK</Navbar.Brand>
               <Nav mr="auto">
-                <Link className='nav-link' to='/'>Home </Link>
-                <Link className='nav-link' to='/about'>About </Link>
-                <Link className="nav-link" to="/projects">Projects </Link>
+                <Link className='nav-link link-text' to='/'>Home </Link>
+                <Link className='nav-link link-text' to='/about'>About </Link>
+                <Link className="nav-link link-text" to="/projects">Projects </Link>
               </Nav>
             </Navbar>
           </div>
