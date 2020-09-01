@@ -18,14 +18,12 @@ export class Navigation extends Component {
             <div className='banner'>
               <Navbar inverse fluid bg="dark">
                 <Navbar.Brand id="initials">AK</Navbar.Brand>
-                <Navbar.Collapse id="navbar-toggle" >
-                  <Nav mr="auto">
-                    <Link className='nav-link' to='/'>Home </Link>
-                    <Link className='nav-link' to='/about'>About </Link>
-                    <Link className="nav-link" to="/projects">Projects </Link>
-                    <Link className="nav-link" to="/contact">Contact</Link>
-                  </Nav>
-                </Navbar.Collapse>
+                <Nav className='justify-content-end ml-auto'>
+                  <Link className='nav-link' to='/'>Home </Link>
+                  <Link className='nav-link' to='/about'>About </Link>
+                  <Link className="nav-link" to="/projects">Projects </Link>
+                  <Link className="nav-link" to="/contact">Contact</Link>
+                </Nav>
               </Navbar>
             </div>
             <Switch>
