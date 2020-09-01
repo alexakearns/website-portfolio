@@ -7,6 +7,7 @@ export class Projects extends Component {
     return (
       <div className="title-text">
         <h1>Projects</h1>
+        <p>All projects can be found on github</p>
       </div>
     );
   }
