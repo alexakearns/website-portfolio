@@ -6,7 +6,6 @@ import Nav from 'react-bootstrap/Nav';
 import Home from '../home/home';
 import About from '../about/about';
 import Projects from '../projects/projects';
-import './navigation.css';
 
 export class Navigation extends Component {
   render () {
