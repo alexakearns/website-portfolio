@@ -9,7 +9,7 @@ export class Projects extends Component {
       <div className="title-text">
         <h1>Projects</h1>
         <ProjectDetails />
-        <p>All projects can be found on github</p>
+        <p>All projects can be found on <a href="https://github.com/alexakearns">Github</a></p>
       </div>
     );
   }
