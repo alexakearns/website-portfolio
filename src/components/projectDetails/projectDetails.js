@@ -1,21 +1,24 @@
 import React, { Component } from 'react';
 // import Card from 'react-bootstrap/Card';
-// import Button from 'react-bootstrap/Button';
+
+import './projectDetails.css';
+import MissionCtrl from './images/Mission-ctrl.png';
 
 export class ProjectDetails extends Component {
   render () {
     return (
       <div>
-        <h1>Project Details</h1>
-        {/* <Card style={{ width: '18rem' }}>
-          <Card.img variant='top' />
-          <Card.Body>
-            <Card.Title>Project 1</Card.Title>
-            <Card.Text>First of many great projects for this page.</Card.Text>
-            <Button >Github</Button>
-            <Button>Deployed app</Button>
-          </Card.Body>
-        </Card> */}
+        <div>
+          <section id="mission-ctrl">
+            <div>
+              <img src={MissionCtrl} alt="mission ctrl screenshot" className="project-image"></img>
+            </div>
+            <h2>Mission Ctrl</h2>
+            <p>Still using your mouse in VS Code? Learning shortcuts the hard way? Mission Ctrl is a fun arcade style game to learn VS Code shortcuts. This group project was built using MERN stack.</p>
+            <button className="deployed-link" href="http://mission-ctrl.surge.sh/">Play Mission Ctrl here</button>
+            <button className="deployed-link" href="https://github.com/hturnbull93/mission-ctrl-api-node">Github Repo</button>
+          </section>
+        </div>
       </div>
     );
   }
