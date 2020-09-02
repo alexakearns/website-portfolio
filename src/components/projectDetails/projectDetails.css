@@ -1,0 +1,32 @@
+
+h2 {
+  font-family: monospace;
+  font-size: 30px;
+}
+
+/* p {
+  font-family: monospace;
+  font-size: 15px;
+  width: 31%;
+  align-self: center;
+} */
+
+.project-image {
+  width: 25%;
+  height: auto;
+  padding: 2%;
+}
+
+.deployed-link {
+  background-color: #63AAE3;
+  padding: 0.5%;
+  margin: .25%;
+}
+
+#mission-ctrl {
+  background-color: #61E5D6;
+}
+
+#taped-it {
+  background-color: #E6C74C;
+}
