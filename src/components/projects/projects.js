@@ -6,10 +6,12 @@ import './projects.css';
 export class Projects extends Component {
   render () {
     return (
-      <div className="title-text">
-        <h1>Projects</h1>
-        <ProjectDetails />
-        <p>All projects can be found on <a href="https://github.com/alexakearns">Github</a></p>
+      <div>
+        <div className="title-text">
+          <h1>Projects</h1>
+          <ProjectDetails />
+          <p>All projects can be found on <a href="https://github.com/alexakearns">Github</a></p>
+        </div>
       </div>
     );
   }
