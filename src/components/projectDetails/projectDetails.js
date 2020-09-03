@@ -32,6 +32,16 @@ export class ProjectDetails extends Component {
               <button className="deployed-link" href="https://github.com/voice-notes">Github Repo</button>
             </div>
           </section>
+          <section id="bank-test">
+            <div>
+              <img src={TapedIt} alt="taped it screenshot" className="project-image"></img>
+            </div>
+            <div className="project-text">
+              <h2>Banking Tech Test</h2>
+              <p>The aim of this project is to produce well tested, easy to read and easy to change code that is produced through a structured process using TDD and good object orientated design.</p>
+              <button className="deployed-link" href="https://github.com/alexakearns/bank_tech_test">Github Repo</button>
+            </div>
+          </section>
         </div>
       </div>
     );

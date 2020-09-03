@@ -10,6 +10,9 @@ h2 {
   width: 31%;
   align-self: center;
 } */
+section {
+  padding: 1.75%;
+}
 
 .project-image {
   width: 25%;
@@ -29,4 +32,8 @@ h2 {
 
 #taped-it {
   background-color: #E6C74C;
+}
+
+#bank-test {
+  background-color: #5A8AD8;
 }
