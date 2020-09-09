@@ -22,8 +22,16 @@ section {
 
 .deployed-link {
   background-color: #63AAE3;
+  color: navy;
+  border-radius: 10px;
+  text-decoration: none;
   padding: 0.5%;
   margin: .25%;
+}
+
+.deployed-link:hover {
+  background-color: #2583d0;
+  color: white;
 }
 
 #mission-ctrl {
