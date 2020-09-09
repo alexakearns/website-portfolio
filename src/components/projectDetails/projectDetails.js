@@ -4,6 +4,7 @@ import React, { Component } from 'react';
 import './projectDetails.css';
 import MissionCtrl from './images/Mission-ctrl.png';
 import TapedIt from './images/Taped-it.png';
+import BankTest from './images/Bank-test.png';
 
 export class ProjectDetails extends Component {
   render () {
@@ -34,7 +35,7 @@ export class ProjectDetails extends Component {
           </section>
           <section id="bank-test">
             <div>
-              <img src={TapedIt} alt="taped it screenshot" className="project-image"></img>
+              <img src={BankTest} alt="taped it screenshot" className="project-image"></img>
             </div>
             <div className="project-text">
               <h2>Banking Tech Test</h2>
